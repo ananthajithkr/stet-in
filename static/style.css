@@ -1,0 +1,88 @@
+/* whole body is off-white to make reading easier */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ededed;
+}
+
+/* roboto is loaded from google fonts */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;          
+  line-height: 1.4;        
+}
+
+body {
+  display: flex;
+  flex-direction: column;     /* stack children vertically */
+  justify-content: flex-start;
+  align-items: center;        /* center horizontally */
+  min-height: 100vh;
+  padding-top: 20vh;
+  margin: 0;
+  text-align: left;
+  box-sizing: border-box;
+  padding-top: 15vh;
+}
+
+body > * {
+  max-width: 720px;
+  width: 100%;
+   padding-left: 1rem;
+}
+
+
+
+.sidebar.collapsed {
+  transform: translateX(-100%);  /* Completely off-screen */
+}
+
+/* Toggle button fixed on the left, always visible */
+.toggle-btn {
+  position: fixed;
+  top: 10px;
+  left: 10px;  /* Always near left edge */
+  z-index: 1500;  /* Make sure it’s above sidebar */
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Sidebar styling */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  padding: 20px;
+  background-color: #858383;
+  overflow-y: auto;
+  transition: transform 0.3s ease;
+  z-index: 1000;
+  transform: translateX(0);
+}
+
+/* When sidebar is collapsed, slide it out */
+.sidebar.collapsed {
+  transform: translateX(-280px);
+}
+
+
+.sidebar-home {
+  padding: 30px 0 10px 15px;
+  z-index: 1100; /* or keep same as sidebar if needed */
+}
+
+@media (max-width: 600px) 
+  .sidebar {
+    width: 250px;
+  }

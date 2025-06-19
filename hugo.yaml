@@ -1,0 +1,13 @@
+baseURL: "https://stet.in/"
+languageCode: "en-IN"
+title: "stet"
+params:
+  author: "ananthajith_kr"
+  description: "Personal Website of Ananthajith"
+  email: "hello@stet.in"
+  social:
+    github: "ananthajithkr"
+keywords: "personal, ananthajith, indian, academic, literature, scholar"
+copyright: "2025 ananthajith"
+dateFormat: "January 2, 2025"
+theme: stet_theme

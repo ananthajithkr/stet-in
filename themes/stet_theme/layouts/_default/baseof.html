@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<bod id="main-body">
+
+  {{ partial "sidebar.html" . }}
+
+  <!-- This is where child templates inject content -->
+  {{ block "main" . }}{{ end }}
+
+<script>
+  function toggleSidebar() {
+    const sidebar = document.getElementById("sidebar");
+    const body = document.getElementById("main-body");
+
+    sidebar.classList.toggle("collapsed");
+    body.classList.toggle("sidebar-visible");
+  }
+</script>
+
+</body>
+</html>
+
+  

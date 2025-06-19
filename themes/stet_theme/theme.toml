@@ -1,0 +1,12 @@
+name = "stet_theme"
+license = "CC BY-NC-SA 4.0"
+licenselink = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+description = "A minimalist Hugo theme for stet.in, free for personal and non-commercial use."
+homepage = "https://stet.in"
+
+[author]
+  name = "Ananthajith_KR"
+  homepage = "https://stet.in"
+
+[params]
+  commercial_use = "Not permitted without prior permission from the author. Contact stet.in for commercial licenses."

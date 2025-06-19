@@ -1,0 +1,21 @@
+<button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+
+<aside class="sidebar collapsed" id="sidebar">
+  
+  <div class="sidebar-home">
+    <a href="/">🏠 Home</a>
+  
+
+  {{ $sidebar := site.GetPage "sidebar" }}
+  {{ if $sidebar }}
+    <article>
+
+      {{ $sidebar.Content | safeHTML }}
+
+    </article>
+  {{ else }}
+    <p>No sidebar content found.</p>
+  {{ end }}
+
+  </div>
+</aside>
