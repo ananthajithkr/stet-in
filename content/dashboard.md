@@ -7,14 +7,12 @@ author: ananthajithkr
 
 [Log](/log/) and [Notes](/notes/)
 
-
 ## Literature
 
 1. Mirror and the Lamp
 2. The Well Wrought Urn
 3. Image, Music, Text
 4. Keywords
-
 
 ## Kerala Studies
 
@@ -25,6 +23,6 @@ author: ananthajithkr
 5. Caste, Nationalism, and Communism in South India
 6. Rajan Gurukkal on Kerala Temple and Agrarian System
 
-## Programming
+## Dev
 
-1. Python 
+1. Python
