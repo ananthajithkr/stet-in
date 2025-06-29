@@ -5,6 +5,9 @@ draft: false
 author: ananthajithkr
 ---
 
+[Log](/log/) and [Notes](/notes/)
+
+
 ## Literature
 
 1. Mirror and the Lamp
@@ -25,8 +28,3 @@ author: ananthajithkr
 ## Programming
 
 1. Python 
-
-
-## Log
-
-1. 
