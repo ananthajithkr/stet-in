@@ -19,7 +19,7 @@ You can find my blog at [colophon](/blog/).[^3] A colophon is a page that contai
 
 You can mail me (guarantees faster response) at hello at stet dot in. If you do not receive a reply, please check your spam/junk folder too. I am also on [Mastodon](https://sciences.social/@ananthajith)
 
-Here is the [dashboard](/dashboard/)
+Here is the [god's mill](/dashboard/)
 
 [^1]: Powered by hugo+nginx+debian. Mumbai/Kozhikode. June 2025.
 [^2]: Book+Movie Shelf.
